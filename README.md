@@ -42,8 +42,7 @@ This repository contains the standalone MSI installer.
 <!-- /wp:separator -->
 
 ## :tv: VIDEOS <br>
-Check the Pure Storage YoTube channel for SDK v1 videos: <br>
-[YouTube](https://www.youtube.com/user/purestorage)
+[Check the Pure Storage YouTube channel for SDK v1 videos](https://www.youtube.com/user/purestorage)
 <!-- wp:paragraph -->
 
 <!-- wp:separator -->
