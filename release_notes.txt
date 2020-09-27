@@ -19,7 +19,7 @@ extract and run the PurePowerShellSDKInstaller.msi and follow the instructions.
 
 // KNOWN ISSUES
 - Get-PfaProtectionGroupVolumeSnapshots does not work if the array is connected using REST API 1.4.
-- The following Cmdlets remove the "-CaCertificate" parameter, see the new "New-PfaKMIP" cmdlet.
+- The following Cmdlets remove the "-CaCertificate" parameter. See the new "New-PfaKMIP" cmdlet.
     Import-PfaNamedCertificate 
     New-PfaNamedCertificate
 - Get-PfaNamedCertificate no longer accepts the -ExportCaCertificate parameter.
@@ -31,7 +31,7 @@ extract and run the PurePowerShellSDKInstaller.msi and follow the instructions.
 // RELEASE INFORMATION
 RELEASE 1.17.11
 Release 1.17.11 adds the following changes to Release 1.17.0
-- Added DisableLoggingToArray to New-PfaArray and New-PfaCLICommand to disabled phone home logging to the array(and the associated thread) for this connection.
+- Added DisableLoggingToArray to New-PfaArray and New-PfaCLICommand to disabled phone home logging to the array (and the associated thread) for this connection.
 - Fixed resource consumption issue in a New-PfaCLICommand connection that could cause the number of threads in a process to continually increase.
 
 RELEASE 1.17.0
