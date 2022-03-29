@@ -120,6 +120,7 @@ Get-PfaVolumes -Array $Array | Where-Object { ($_.name -like "Volume0*") -and ($
 
 ## EXAMPLE
 # Destroy (not eradicate) snapshots older than "x" Days for all volumes
+$Days = 30
 $targetDate = (Get-Date).AddDays(-1 * $Days)
 $snaps = Get-PfaVolumeSnapshot -Array $fa -SnapshotName * | Where-Object source -EQ $Volume
 foreach ($snap in $snaps) {
