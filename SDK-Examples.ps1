@@ -94,8 +94,8 @@ Get-PfaVolumeIOMetrics -Array $fa -VolumeName "sdk-vol1" -TimeRange 1h | Export-
 ## EXAMPLE
 # Run a Purity CLI command via SSH using a plaintext password converted to a SecureString
 $CommandText = "purevol create --size 10G volume-name-1"
-$Username = "pureuser"
-$Password = "pureuser"
+$Username = "myuser"
+$Password = "mysecret"
 $SecurePassword = ConvertTo-SecureString -String $Password -AsPlainText -Force
 New-PfaCliCommand -EndPoint 192.0.0.1 -UserName $Username -Password $SecurePassword -CommandText $CommandText
 
